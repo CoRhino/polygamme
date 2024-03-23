@@ -3,7 +3,7 @@ from mido import Message, MidiFile, MidiTrack
 
 # Définir les notes de la gamme de La mineur dans l'octave 4
 # Les valeurs sont des numéros de notes MIDI
-gamme_la_mineur = [57, 59, 60, 62, 64, 65, 67, 69, 71, 72]
+gamme_la_mineur = [57, 59, 60, 62, 64, 65, 68, 69]
 
 # Créer un nouveau fichier MIDI
 mid = MidiFile()
