@@ -1,0 +1,5 @@
+numpy
+sounddevice
+mido
+PyQt5
+matplotlib
