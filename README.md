@@ -42,3 +42,7 @@ python scripts/gui_microtonal.py
 ```
 
 This will open a window where you can select different scales, visualize their frequencies, and play them.
+
+## Using Cline
+
+This project is compatible with Cline, an AI-powered coding assistant. For Cline-specific instructions and guidelines, please refer to the `.cline/instructions.md` file in the project root. This file contains important information about the project structure, common tasks, and development workflow.

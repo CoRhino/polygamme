@@ -29,14 +29,6 @@ class Scale:
                            midi_note=self.frequency_to_midi_note(self.base_frequency * ratio)) 
                       for ratio in ratios]
         return self
-    
-    def generate_seb_custom(self):
-        """Génère une gamme inventée par Séb Cô : tonique, b2, 3m, 3M, #4, 5, b6, 7M"""
-        ratios = [1, 16/15, 6/5, 5/4, 45/32, 3/2, 8/5, 15/8, 2]
-        self.notes = [Note(frequency=self.base_frequency * ratio, 
-                           midi_note=self.frequency_to_midi_note(self.base_frequency * ratio)) 
-                      for ratio in ratios]
-        return self
 
     def generate_indian_shruti(self):
         """
